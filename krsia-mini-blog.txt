@@ -12,6 +12,7 @@ krsia-mini-blog/
  │   │   │               │   └── WebSecurityConfig.java
  │   │   │               ├── controller
  │   │   │               │   ├── AuthController.java
+ │   │   │               │   ├── HomeController.java
  │   │   │               │   ├── PostController.java
  │   │   │               │   └── CommentController.java
  │   │   │               ├── entity
@@ -29,11 +30,14 @@ krsia-mini-blog/
  │   │   └── resources
  │   │       ├── application.properties
  │   │       ├── templates
+ │   │       │   ├── layout.html
  │   │       │   ├── index.html
  │   │       │   ├── login.html
  │   │       │   ├── register.html
  │   │       │   ├── posts.html
- │   │       │   └── post-detail.html
+ │   │       │   ├── post-detail.html
+ │   │       │   └── post-form.html
  │   │       └── static
- │   │           └── style.css
- └── src/test/java/com/krsia/blog/ (테스트 코드)
+ │   │           ├── style.css
+ │   │           └── schema.sql
+ └── README.md
