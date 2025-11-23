@@ -1,0 +1,39 @@
+krsia-mini-blog/
+ ├── build.gradle
+ ├── settings.gradle
+ ├── src
+ │   ├── main
+ │   │   ├── java
+ │   │   │   └── com
+ │   │   │       └── krsia
+ │   │   │           └── blog
+ │   │   │               ├── KrsiaApplication.java
+ │   │   │               ├── config
+ │   │   │               │   └── WebSecurityConfig.java
+ │   │   │               ├── controller
+ │   │   │               │   ├── AuthController.java
+ │   │   │               │   ├── PostController.java
+ │   │   │               │   └── CommentController.java
+ │   │   │               ├── entity
+ │   │   │               │   ├── User.java
+ │   │   │               │   ├── Post.java
+ │   │   │               │   └── Comment.java
+ │   │   │               ├── repository
+ │   │   │               │   ├── UserRepository.java
+ │   │   │               │   ├── PostRepository.java
+ │   │   │               │   └── CommentRepository.java
+ │   │   │               └── service
+ │   │   │                   ├── UserService.java
+ │   │   │                   ├── PostService.java
+ │   │   │                   └── CommentService.java
+ │   │   └── resources
+ │   │       ├── application.properties
+ │   │       ├── templates
+ │   │       │   ├── index.html
+ │   │       │   ├── login.html
+ │   │       │   ├── register.html
+ │   │       │   ├── posts.html
+ │   │       │   └── post-detail.html
+ │   │       └── static
+ │   │           └── style.css
+ └── src/test/java/com/krsia/blog/ (테스트 코드)
